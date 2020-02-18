@@ -7,7 +7,7 @@
 from linkedlist import Linked_List
 from linkedlist import Node
 
-""" creating object for linked list"""
+""" creating object for linked list..."""
 
 obj=Linked_List()
 
