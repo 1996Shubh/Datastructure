@@ -53,7 +53,7 @@ def main1():
         f.write(" "+search1)
         f.close()
         print("The word you search is added to the list:")
-    print("After the searching the word your list is updated !!")
+    print("After the searching the word your list is updated!!")
     obj.traverse()
 
 main1()
