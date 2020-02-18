@@ -36,10 +36,12 @@ class Deque:
                 node_data=self.front.data
                 self.front=self.rear=None
                 self.count-=1
+                return node_data
             else:
                 node_data=self.front.data
                 self.front=self.front.next
                 self.count-=1
+                return node_data
 
     def remove_from_rear(self):
         if self.rear==None:
@@ -49,6 +51,7 @@ class Deque:
                 node_data=self.front.data
                 self.front=self.rear=None
                 self.count-=1
+                return node_data
             else:
                 node_data=self.rear.data
                 temp=self.front
@@ -57,6 +60,7 @@ class Deque:
                 self.rear=temp
                 temp.next=None
                 self.count-=1
+                return node_data
 
     def is_empty(self):
         if self.rear==None:
